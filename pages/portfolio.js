@@ -11,7 +11,9 @@ export default function Portfolio() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <h1>hi</h1>
+      <section>
+        <h1>hello</h1>
+      </section>
     </div>
   )
 };

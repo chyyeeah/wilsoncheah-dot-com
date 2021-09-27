@@ -12,7 +12,7 @@ const NavBar = () => {
           <a>Portfolio</a>
         </Link>
         <Link href='/contact'>
-          <a>Contact</a>
+          <a>Contact Me</a>
         </Link>
       </nav>
     </>

@@ -14,7 +14,7 @@ export default function Main() {
       <div className='max-w-screen-lg m-auto lg:pl-0 lg:pr-0'>
         <NavBar />
         <section>
-          <h1 className="text-5xl pb-6">Portfolio</h1>
+          <h1 className="text-5xl pb-6 font-extralight">Portfolio</h1>
           <Portfolio />
         </section>
       </div>

@@ -3,10 +3,10 @@ import Link from 'next/Link';
 const NavBar = () => {
   return (
     <>
-      <nav className='pt-10 pb-12'>
+      <nav className='pt-10 pb-4 mb-8 border-b border-gray-400'>
         <div className='flex justify-center'>
           <Link href='/'>
-            <a className='text-6xl font-extralight tracking-tight'>Wilson Cheah</a>
+            <a className='text-4xl font-extralight tracking-tight'>Wilson Cheah</a>
           </Link>
           <div className='flex-grow'></div>
           <div className='flex pl-6 flex items-center w-auto'>

@@ -1,4 +1,4 @@
-// import '../styles/globals.css'
+import '../src/styles/styles.css'
 import 'tailwindcss/tailwind.css';
 
 function MyApp({ Component, pageProps }) {

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import NavBar from '../src/components/NavBar.jsx';
 import Portfolio from '../src/components/Portfolio/Portfolio.jsx';
+import Footer from '../src/components/Footer.jsx';
 
 export default function Main() {
   return (
@@ -18,6 +19,7 @@ export default function Main() {
           <Portfolio />
         </section>
       </div>
+      <Footer />
     </div>
   )
 };

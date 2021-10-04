@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 const PortfolioCard = ({ title, description, tech, imagePath }) => {
   return (
-    <div className='p-3 text-center border border-black rounded-md border-opacity-25 shadow-md '>
-      <div className='pb-2'>
+    <div className='p-4 text-center border border-black rounded-md border-opacity-25 shadow-md '>
+      <div className='pt-2 pb-4'>
         <span className='text-3xl font-extralight'>{title}</span>
       </div>
       <div>
@@ -13,7 +13,7 @@ const PortfolioCard = ({ title, description, tech, imagePath }) => {
       <p className='text-sm text-gray-500'>
         {tech.join(', ')}
       </p>
-      <p className='pt-2 tracking-wide leading-6'>{description}</p>
+      <p className='pt-2 tracking-wide leading-6 text-md'>{description}</p>
     </div>
   );
 };

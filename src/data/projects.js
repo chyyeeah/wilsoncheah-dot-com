@@ -16,7 +16,7 @@ module.exports = [
   {
     id: 2,
     title: 'Correspond',
-    description: `In an ever evolving digital world, it is now easier to connect with people around the world. Correspond takes the work out of look for a pal and pairs you up with one. You can choose to talk to someone in a specific country or we can pick for you. With real time chat functionality, there is no wait to make a bond with a new pal today!`,
+    description: `A real-time chat application that connects you with pals around the world. You can choose to talk to someone in a specific country or we can pick for you. `,
     tech: ['React', 'Session-based Authentication', 'WebSockets', 'MongoDB'],
     imagePath: 'https://cdn.pixabay.com/photo/2021/03/05/21/43/lizard-6072391_960_720.jpg'
   },

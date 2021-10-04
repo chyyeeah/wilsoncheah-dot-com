@@ -1,17 +1,13 @@
-import Head from 'next/head';
 import Image from 'next/image';
+import Header from '../src/components/Header.jsx';
 import NavBar from '../src/components/NavBar.jsx';
-import Portfolio from '../src/components/Portfolio/Portfolio.jsx';
 import Footer from '../src/components/Footer.jsx';
+import Portfolio from '../src/components/Portfolio/Portfolio.jsx';
 
 export default function Main() {
   return (
     <div>
-      <Head>
-        <title>Wilson Cheah</title>
-        <meta name="description" content="Wilson Cheah's personal website." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Header />
       <div className='max-w-screen-lg m-auto lg:pl-0 lg:pr-0'>
         <NavBar />
         <section>

@@ -4,21 +4,21 @@ module.exports = [
     title: 'Questions & Answers',
     description: 'Built with the inquiring consumer in mind. There are times when the product description is not enough. This gives the consumer the ability to reach out to fellow consumers and even the seller themselves.',
     tech: ['React', 'React Hooks', 'Higher Order Components'],
-    imagePath: 'https://cdn.pixabay.com/photo/2021/03/05/21/43/lizard-6072391_960_720.jpg'
+    imagePath: '/img/Q&A.png',
   },
   {
     id: 1,
     title: 'Kanye Says',
     description: `A simple interface to access the wonderful world of Kanye's twitter feed.`,
     tech: ['React', 'JWT', 'React Router'],
-    imagePath: 'https://cdn.pixabay.com/photo/2021/03/05/21/43/lizard-6072391_960_720.jpg'
+    imagePath: '/img/kanyesays.png'
   },
   {
     id: 2,
     title: 'Correspond',
     description: `A real-time chat application that connects you with pals around the world. You can choose to talk to someone in a specific country or we can pick for you. `,
     tech: ['React', 'Session-based Authentication', 'WebSockets', 'MongoDB'],
-    imagePath: 'https://cdn.pixabay.com/photo/2021/03/05/21/43/lizard-6072391_960_720.jpg'
+    imagePath: '/img/correspond.png'
   },
   {
     id: 3,

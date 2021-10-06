@@ -1,20 +1,24 @@
 import Link from 'next/Link';
+import Image from 'next/image';
 
 const NavBar = () => {
   return (
     <>
       <nav className='pt-10 pb-4 mb-8 border-b border-gray-400'>
-        <div className='flex justify-center'>
+        <div className='flex justify-center ml-6 mr-6'>
           <Link href='/'>
-            <a className='text-4xl font-extralight tracking-tight'>Wilson Cheah</a>
+            <a className='text-5xl font-extralight tracking-tight'>Wilson Cheah</a>
           </Link>
           <div className='flex-grow'></div>
           <div className='flex pl-6 flex items-center w-auto'>
-            <Link href='/about'>
-              <a className='block inline-block text-teal-200 hover:text-white mr-6'>About</a>
-            </Link>
-            <a className='block inline-block text-teal-200 hover:text-white mr-6'>LinkedIn</a>
-            <a className='block inline-block text-teal-200 hover:text-white mr-6'>GitHub</a>
+            <a href='https://www.linkedin.com/feed/' target='_blank' rel='noreferrer' className='block inline-block text-teal-200 mr-3'>
+              <Image src='/img/logo-linkedin.svg' alt='LinkedIn logo' width='30' height='30'>
+              </Image>
+            </a>
+            <a href='https://github.com/chyyeeah' target='_blank' rel='noreferrer' className='block inline-block text-teal-200'>
+              <Image src='/img/logo-github.svg' alt='LinkedIn logo' width='30' height='30'>
+              </Image>
+            </a>
           </div>
         </div>
       </nav>

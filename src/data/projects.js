@@ -25,7 +25,7 @@ module.exports = [
     title: 'Flik',
     description: `Wish you were better at your favorite first person shooter? With Flik, you can practice your reaction time and accuracy with targets that will appear at random on your screen!`,
     tech: ['React', 'Nivo (extension of D3)'],
-    imagePath: 'https://cdn.pixabay.com/photo/2021/03/05/21/43/lizard-6072391_960_720.jpg'
+    imagePath: '/img/flik.png'
   },
   {
     id: 4,
